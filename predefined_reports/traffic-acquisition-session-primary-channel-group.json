@@ -1,0 +1,50 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "sessionDefaultChannelGroup"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "sessions"
+    },
+    {
+      "name": "engagedSessions"
+    },
+    {
+      "name": "averageEngagementTimePerSession",
+      "expression": "userEngagementDuration/sessions"
+    },
+    {
+      "name": "engagedSessionsPerUser",
+      "expression": "engagedSessions/activeUsers"
+    },
+    {
+      "name": "eventsPerSession"
+    },
+    {
+      "name": "engagementRate"
+    },
+    {
+      "name": "eventCount"
+    },
+    {
+      "name": "keyEvents"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

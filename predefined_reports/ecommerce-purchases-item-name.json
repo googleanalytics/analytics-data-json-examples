@@ -1,0 +1,30 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "itemName"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "itemsViewed"
+    },
+    {
+      "name": "itemsAddedToCart"
+    },
+    {
+      "name": "itemsPurchased"
+    },
+    {
+      "name": "itemRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

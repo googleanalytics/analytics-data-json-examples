@@ -1,0 +1,52 @@
+{
+  "pivots": [
+    {
+      "fieldNames": [
+        "date"
+      ],
+      "orderBys": [
+        {
+          "dimension": {
+            "dimensionName": "date"
+          }
+        }
+      ],
+      "limit": 28
+    },
+    {
+      "fieldNames": [
+        "landingPage"
+      ],
+      "limit": 5
+    }
+  ],
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "date"
+    },
+    {
+      "name": "landingPage"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "sessions"
+    }
+  ],
+  "dimensionFilter": {
+    "notExpression": {
+      "filter": {
+        "fieldName": "landingPage",
+        "stringFilter": {
+          "value": "(not set)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "itemPromotionName"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "itemsViewedInPromotion"
+    },
+    {
+      "name": "itemsClickedInPromotion"
+    },
+    {
+      "name": "itemPromotionClickThroughRate"
+    },
+    {
+      "name": "itemsAddedToCart"
+    },
+    {
+      "name": "itemsCheckedOut"
+    },
+    {
+      "name": "itemsPurchased"
+    },
+    {
+      "name": "itemRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

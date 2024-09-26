@@ -1,0 +1,31 @@
+{
+  "dimensions": [
+    {
+      "name": "cohort"
+    },
+    {
+      "name": "cohortNthDay"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "cohortRetentionFraction",
+      "expression": "cohortActiveUsers/cohortTotalUsers"
+    }
+  ],
+  "cohortSpec": {
+    "cohorts": [
+      {
+        "dimension": "firstSessionDate",
+        "dateRange": {
+          "startDate": "2023-12-11",
+          "endDate": "2023-12-11"
+        }
+      }
+    ],
+    "cohortsRange": {
+      "endOffset": 7,
+      "granularity": "DAILY"
+    }
+  }
+}

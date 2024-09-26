@@ -1,0 +1,47 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "browser"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "newUsers"
+    },
+    {
+      "name": "engagedSessions"
+    },
+    {
+      "name": "engagementRate"
+    },
+    {
+      "name": "engagedSessionsPerUser",
+      "expression": "engagedSessions/activeUsers"
+    },
+    {
+      "name": "averageEngagementTimePerUser",
+      "expression": "userEngagementDuration/activeUsers"
+    },
+    {
+      "name": "eventCount"
+    },
+    {
+      "name": "keyEvents"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}
