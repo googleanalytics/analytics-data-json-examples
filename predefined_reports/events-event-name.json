@@ -1,0 +1,30 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "eventName"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "eventCount"
+    },
+    {
+      "name": "totalUsers"
+    },
+    {
+      "name": "eventCountPerUser"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

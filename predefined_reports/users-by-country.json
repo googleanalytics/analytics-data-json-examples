@@ -1,0 +1,19 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "country"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "activeUsers"
+    }
+  ],
+  "limit": 5
+}

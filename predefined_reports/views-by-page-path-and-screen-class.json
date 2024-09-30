@@ -1,0 +1,19 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "unifiedPagePathScreen"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "screenPageViews"
+    }
+  ],
+  "limit": 5
+}

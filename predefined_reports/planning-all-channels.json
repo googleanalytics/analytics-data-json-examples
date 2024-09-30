@@ -1,0 +1,33 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "defaultChannelGroup"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "keyEvents"
+    },
+    {
+      "name": "advertiserAdCost"
+    },
+    {
+      "name": "advertiserAdCostPerKeyEvent"
+    },
+    {
+      "name": "totalRevenue"
+    },
+    {
+      "name": "returnOnAdSpend"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

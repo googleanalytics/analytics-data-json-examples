@@ -1,0 +1,40 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "unifiedPagePathScreen"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "screenPageViews"
+    },
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "screenPageViewsPerUser"
+    },
+    {
+      "name": "averageEngagementTime",
+      "expression": "userEngagementDuration/activeUsers"
+    },
+    {
+      "name": "eventCount"
+    },
+    {
+      "name": "keyEvents"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

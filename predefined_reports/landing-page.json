@@ -1,0 +1,37 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "landingPage"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "sessions"
+    },
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "newUsers"
+    },
+    {
+      "name": "averageEngagementTimePerSession",
+      "expression": "userEngagementDuration/sessions"
+    },
+    {
+      "name": "keyEvents"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}

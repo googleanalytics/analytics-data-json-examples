@@ -1,0 +1,19 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "defaultChannelGroup"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "keyEvents"
+    }
+  ],
+  "limit": 5
+}

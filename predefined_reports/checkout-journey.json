@@ -1,0 +1,49 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "funnelBreakdown": {
+    "breakdownDimension": {
+      "name": "deviceCategory"
+    }
+  },
+  "funnel": {
+    "steps": [
+      {
+        "name": "Begin checkout",
+        "filterExpression": {
+          "funnelEventFilter": {
+            "eventName": "begin_checkout"
+          }
+        }
+      },
+      {
+        "name": "Add shipping",
+        "filterExpression": {
+          "funnelEventFilter": {
+            "eventName": "add_shipping_info"
+          }
+        }
+      },
+      {
+        "name": "Add payment",
+        "filterExpression": {
+          "funnelEventFilter": {
+            "eventName": "add_payment_info"
+          }
+        }
+      },
+      {
+        "name": "Purchase",
+        "filterExpression": {
+          "funnelEventFilter": {
+            "eventName": "purchase"
+          }
+        }
+      }
+    ]
+  }
+}

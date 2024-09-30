@@ -1,0 +1,36 @@
+{
+  "dateRanges": [
+    {
+      "startDate": "28daysAgo",
+      "endDate": "yesterday"
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "audienceName"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "activeUsers"
+    },
+    {
+      "name": "newUsers"
+    },
+    {
+      "name": "sessions"
+    },
+    {
+      "name": "screenPageViewsPerSession"
+    },
+    {
+      "name": "averageSessionDuration"
+    },
+    {
+      "name": "totalRevenue"
+    }
+  ],
+  "metricAggregations": [
+    "TOTAL"
+  ]
+}
