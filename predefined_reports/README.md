@@ -4,7 +4,7 @@
 
 This folder contains examples of the Data API queries equivalent to [predefined
 reports](https://support.google.com/analytics/answer/9212670)
-available in the Google Analytics API. See the [predefined
+available in the Google Analytics UI. See the [predefined
 reports guide](https://developers.google.com/analytics/devguides/reporting/data/v1/predefined-reports)
 for a detailed description of each report.
 
