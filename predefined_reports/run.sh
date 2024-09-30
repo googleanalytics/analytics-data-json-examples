@@ -12,8 +12,7 @@ filename="$1"
 
 # Check if the file exists
 if [ ! -f "$filename" ]; then
-  echo   
- "Error: File '$filename' not found."
+  echo "Error: File '$filename' not found."
   exit 1
 fi
 
